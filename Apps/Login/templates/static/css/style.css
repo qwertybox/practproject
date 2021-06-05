@@ -1,0 +1,9 @@
+body {
+    background-color: lightgray;
+    background-image: url('main.jpg');
+    background-repeat: no-repeat;
+}
+
+.login__left {
+    margin-left: 500px
+}

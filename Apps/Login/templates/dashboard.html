@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock title %}
+<style>
+    body {
+      background-image: url('static/css/main.jpg');
+      background-repeat: no-repeat;
+    }
+    </style>
+{% block content %}
+<h1>{{welcome}}</h1>
+<br>
+<a href="{% url 'Login:edit' %}" class="btn btn-primary">Edit Your Profile</a> or
+<a href="{% url 'Login:password_change' %}" class="btn btn-warning">Change your password</a>
+<hr>
+{% endblock content %}

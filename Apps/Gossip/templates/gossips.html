@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Gossips{% endblock title %}
+{% block content %}
+<h1>{{welcome}}</h1>
+<br>
+    <p>Hello, {{user}}</p>
+    <p>All gossips are:</p>
+    {% for gossip in allGossips %}
+    <p>{{gossip.characterId}}</p>
+    <ul>
+        <li>" {{gossip.gossipText}} "</li>
+        <br>
+    </ul>
+    {% endfor %}
+<hr>
+{% endblock content %}
