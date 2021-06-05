@@ -23,7 +23,7 @@ from pathlib import Path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 print ("base dir path", BASE_DIR)
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'rsjeyxmh8v4y1kpxdo9iv-k52apg65r$5r-p1zg!02k@1q4=5@'
+SECRET_KEY = 'Ssjeyx8v4yds1GDSpxdofd9iv-kSSAapg65r$5fr-p1zg!02k@1q4=5@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
